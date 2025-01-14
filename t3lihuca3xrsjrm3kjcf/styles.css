@@ -1,0 +1,220 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Subtle off-white background */
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.directory {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between labels */
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    margin: 40px auto; /* Center the directory horizontally */
+
+}
+
+.label {
+    width: 100%;
+    background-color: #ffffff; /* Pure white label background */
+    padding: 15px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.label .title {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Courier', monospace;
+}
+
+.label .subtitle {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Courier', monospace;
+}
+
+.label .box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    background-color: #f9f9f9; /* Subtle off-white tone for boxes */
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'Courier', monospace;
+}
+
+.label .box:last-child {
+    margin-bottom: 0;
+}
+
+.label .box-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1;
+    border-right: 1px solid #000000;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.label .box-content {
+    flex: 3;
+}
+
+.unstyled-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.unstyled-link:hover {
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: 'Courier', monospace;
+    color: #555; /* Subtle gray tone for footer text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .website-link {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer .website-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+
+
+/* = = = = = = = = = = = = = = */
+
+
+.navbar {
+    background-color: #f8f3e4; /* Subtle cream tone to match the site */
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+
+/* = = = = = = = = = = = = = = */
+
+
+
+/* Container for info-labels */
+.info-label-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between labels */
+    width: 100%;
+    max-width: 600px; /* Matches the main directory style */
+    align-items: center;
+    margin: 40px auto; /* Center horizontally */
+}
+
+/* Info-label structure */
+.info-label {
+    width: 100%;
+    background-color: #ffffff; /* Pure white label background */
+    padding: 20px; /* Padding for text */
+    border: 1px solid #000000;
+    font-size: 14px;
+    line-height: 1.6;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 0; /* Sharp corners */
+}
+
+/* Title inside info-label */
+.info-label .info-title {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Courier', monospace; /* Matches vintage look */
+    text-align: left; /* Left align title */
+}
+
+/* Text content inside info-label */
+.info-label .info-content {
+    font-family: 'Courier', monospace; /* Matches the faculty font style */
+    color: #333; /* Dark text for contrast */
+    text-align: justify; /* Justify text for clean alignment */
+    line-height: 1.4; /* Matches directory label spacing */
+    font-size: 12px; /* Smaller font for consistency */
+}
+
+/* Links inside info-labels */
+.info-label .info-content a {
+    color: #0073e6; /* Subtle blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-label .info-content a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+
+/* Website Title Styles */
+.website-title {
+    font-family: 'Courier', monospace; /* Match the label name font */
+    font-weight: bold;
+    font-size: 18px; /* Adjust size to match the label name */
+    text-transform: uppercase; /* Optional: Match the vintage style */
+    margin: 20px 0 10px 20px; /* Top and bottom spacing, align left */
+    color: #333; /* Dark text color */
+}
