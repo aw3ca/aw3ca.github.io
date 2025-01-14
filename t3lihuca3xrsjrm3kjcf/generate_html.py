@@ -83,7 +83,7 @@ def generate_html_from_csv(csv_file, output_file):
     
     with open(output_file, 'w') as file:
         file.write("<!DOCTYPE html>\n<html lang='en'>\n<head>\n")
-        file.write("<meta charset='UTF-8'>\n<title>Directory</title>\n")
+        file.write("<meta charset='UTF-8'>\n<title>Academics/Web3/Canada</title>\n")
         file.write("<link rel='stylesheet' href='styles.css'>\n</head>\n<body>\n")
         file.write(NAVBAR_HTML)  # Add the navigation bar
         file.write("<div class='directory'>\n")
