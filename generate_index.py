@@ -2,7 +2,7 @@ import csv
 
 # HTML for the navigation bar
 NAVBAR_HTML = """
-<div class="website-title">academics / web3 / canada </div>
+<div class="website-title">academics/web3/canada</div>
 <nav class="navbar">
     <ul>
         <li><a href="index.html">Directory</a></li>
@@ -19,13 +19,13 @@ ABOUT_HTML = """
         <p>
             This is a directory of academics working on web3, blockchain, cryptocurriencies, and related technologies at Canadian universities. 
             It is not an official group of any sort.
-            It is meant as a convenient reference for companies, media, students, researchers and others looking for experts.
+            It is meant as a convenient reference for companies, media, students, researchers, and others looking for experts.
         </p>
         <p>
-            Are you an academic that we missed? Or see someone we missed? Please let me know: <a href="mailto:j.clark@concordia.ca">Jeremy Clark</a>
+            Are you an academic that we missed? Or see someone we missed? Please <a href="mailto:j.clark@concordia.ca">let me know</a>.
         </p>
         <p>
-            Are you a student or researcher looking for a position? Please <a href="apply.html">click here</a>.
+            Are you a student or researcher looking for a research position? Please <a href="apply.html">click here</a>.
         </p>        
     </div>
 </div>
